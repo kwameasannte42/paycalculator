@@ -1,3 +1,4 @@
+/* General Body Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,11 +7,13 @@ body {
   background-image: url("./logo/logo.png"); /* Replace 'your-logo.png' with the path to your logo */
   background-repeat: no-repeat;
   background-size: cover; /* Ensures the logo covers the entire background */
-  background-position: center 30%; /* Moves the logo 30% down vertically */
+  background-position: center 30%; /* Adjust logo placement */
 }
 
+/* Main Container */
 .container {
   max-width: 400px;
+  width: 90%; /* Adjust width for smaller screens */
   margin: 50px auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -24,6 +27,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for a modern look */
 }
 
+/* Input and Button Styles */
 input[type="number"],
 button {
   width: 100%;
@@ -43,9 +47,49 @@ button:hover {
   background-color: #0056b3;
 }
 
+/* Result Display */
 .result {
   margin-top: 20px;
   padding: 10px;
   background-color: #e9ecef;
   border-radius: 4px;
+}
+
+/* Responsive Design for Mobile Screens */
+@media (max-width: 600px) {
+  body {
+    background-position: center 50%; /* Adjust background position for smaller screens */
+  }
+
+  .container {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  input[type="number"],
+  button {
+    padding: 8px;
+    font-size: 14px; /* Smaller text for smaller screens */
+  }
+
+  .result {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+/* For Very Small Screens (e.g., 320px width) */
+@media (max-width: 400px) {
+  .container {
+    width: 95%; /* Take up more width on very small screens */
+    padding: 10px;
+  }
+
+  button {
+    font-size: 12px; /* Smaller button text */
+  }
+
+  .result {
+    font-size: 12px;
+  }
 }
