@@ -1,46 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh; /* Ensures the body takes the full viewport height */
-    background-image: url('/logo.png'); /* Replace 'your-logo.png' with the path to your logo */
-    background-repeat: no-repeat;
-    background-size: cover; /* Ensures the logo covers the entire background */
-    background-position: center 30%; /* Moves the logo 30% down vertically */
-  }
-  
-  .container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for a modern look */
-  }
-  
-  input[type="number"], button {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  .result {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #e9ecef;
-    border-radius: 4px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensures the body takes the full viewport height */
+  background-image: url("/logo.png"); /* Replace 'your-logo.png' with the path to your logo */
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the logo covers the entire background */
+  background-position: center 30%; /* Moves the logo 30% down vertically */
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slight transparency for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for a modern look */
+}
+
+input[type="number"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
