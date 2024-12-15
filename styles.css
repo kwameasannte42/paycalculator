@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh; /* Ensures the body takes the full viewport height */
-  background-image: url("/logo.png"); /* Replace 'your-logo.png' with the path to your logo */
+  background-image: url("./logo/logo.png"); /* Replace 'your-logo.png' with the path to your logo */
   background-repeat: no-repeat;
   background-size: cover; /* Ensures the logo covers the entire background */
   background-position: center 30%; /* Moves the logo 30% down vertically */
