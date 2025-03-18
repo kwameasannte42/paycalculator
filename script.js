@@ -9,11 +9,11 @@ function calculatePay() {
   let totalRate = 0;
 
   if (mileage <= 15) {
-    totalRate = 42.82;
+    totalRate = 41.50;
   } else if (mileage <= 25) {
-    totalRate = 42.82 + (mileage - 15) * 2.2;
+    totalRate = 41.50 + (mileage - 15) * 1.8;
   } else {
-    totalRate = 42.82 + 10 * 2.2 + (mileage - 25) * 1.2;
+    totalRate = 41.50 + 10 * 1.8 + (mileage - 25) * 1.8;
   }
 
   const ownerShare = totalRate * 0.13;
